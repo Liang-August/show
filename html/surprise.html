@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background: white;
+            padding: 58vh 0;
+            text-align: center;
+            font-size: 400%;
+        }
+        p{
+            color: transparent; 
+        }
+         .one{
+            background: linear-gradient(pink 50%,yellow 50%) center center / 100vw
+            100vw fixed;
+            color: transparent;
+            background-clip: text;
+            -webkit-text-stroke: 2px black;
+        }
+        h3{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+<h3>看运气，点点看吧！</h3>
+<p>开心！快乐！</p>
+<p>安心！舒服！</p>
+<p>过去<==</p>
+<p>过去的是时光，不变的是自己@</p>
+<p>现在===</p>
+<p>现在就应该享受，才不要受罪！！</p>
+<p>未来==></p>
+<p> 未来我也不知道会是怎么样的哇#</p>
+<script>
+    let p=document.querySelectorAll("p")
+    for(let i=0;i<p.length;i++)
+        p[i].onclick=function(){
+            p[i].classList.add("one")
+        }
+</script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+p{
+    position: absolute;
+    left: 15%;
+    font-size: 400%;
+    z-index: 1;
+    top: 25%;
+    transform-style: preserve-3d;
+    animation: z 5s infinite;
+}
+button{
+    display: table;
+    color:yellow;
+    border-radius: 5%;
+    border: 5px,pink;
+    border-style:inset;
+    width: 20%;
+    height: 40px;
+}
+
+a{
+    text-decoration: none;
+}
+#a{
+    top: 30%;
+}
+#b{
+    top: 45%;
+}
+#c{
+    top: 60%;
+}
+div button{
+    position: absolute;
+    left: 45%;
+    top: 100px;
+}
+#two{
+    position: absolute;
+    width: 27%;
+    height: 43%;
+    font-size: 10%;
+    top: 5%;
+    z-index: 0;
+    color: rgb(52, 52, 69)
+}
+#three{
+    position: absolute;
+    width: 5%;
+    height: 4%;
+    font-size: 100%;
+    z-index: 0;
+}
+@keyframes z{
+    from{
+        transform: rotateY(0);
+    }
+    to{
+        transform: rotateY(360deg);
+    }
+}
+
