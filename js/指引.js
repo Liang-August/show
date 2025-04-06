@@ -1,3 +1,5 @@
+alert("开全屏会好看一点！")
+alert("操作：点击屏幕，按钮，烟花的空白处")
 let div=document.querySelectorAll("div")
 let sum0=""
 for(let i=0;i<5;i++){
